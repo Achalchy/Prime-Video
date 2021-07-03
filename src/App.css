@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Bona Nova", serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.app {
+  width: 100vw;
+  height: auto;
+}
+.Maincontainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  height: auto;
+  /* background-color: #dfe4ea; */
+}
+
+.pagesButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+}
+
+.footer {
+  height: 20vh;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  margin-top: 3rem;
+  position: absolute;
+}
+
+.footerIcons {
+  width: 20%;
+  height: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  /* background-color: #fff; */
+}
+.footerIcons > a > .MuiSvgIcon-root {
+  font-size: 3.5rem;
+  text-decoration: none;
+  color: #fff;
+
+  /* background-color: #fff; */
+}
+
+.footerInc {
+  font-size: 1.3rem;
+  text-align: center;
+  position: relative;
+  bottom: -5rem;
+}

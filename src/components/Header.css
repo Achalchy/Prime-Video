@@ -1,0 +1,112 @@
+.header {
+  width: 100%;
+  height: 7rem;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 30rem 1fr 20rem;
+  grid-template-rows: 7rem;
+  padding-right: 3rem;
+}
+
+.header__left {
+  /* object-fit: contain; */
+  display: grid;
+  place-items: center;
+  padding-right: 3rem;
+}
+.header__left > .MuiSvgIcon-root {
+  color: #000;
+  font-size: 3rem;
+}
+
+.logoImg {
+  height: 6rem;
+  object-fit: contain;
+  width: 100%;
+}
+.header__mid {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar {
+  background-color: #ced6e0;
+  flex: 0.8;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  /* border-top-right-radius: 0rem;
+  border-bottom-left-radius: 0rem; */
+  padding: 0.5rem 0.6rem;
+}
+
+form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.searchBar > form > .MuiSvgIcon-root {
+  margin-left: 0.7rem;
+  font-size: 2.5rem;
+  color: rgb(60, 65, 70);
+  cursor: pointer;
+}
+#search {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  border-top-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+}
+
+/* a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #000;
+} */
+.header__mid_link {
+  flex: 0.2;
+  display: flex;
+  align-items: flex-end;
+}
+.header__mid_link > .MuiButton-root > .MuiButton-label {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.headerMid__list {
+  list-style-type: none;
+  padding: 0.6rem 0.4rem;
+  transition: all 0.2s ease;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  backdrop-filter: blur(20rem);
+}
+.headerMid__list:hover {
+  background-color: rgba(0, 0, 0, 0.733);
+  backdrop-filter: blur(20rem);
+  border-radius: 1.5rem;
+  padding: 0.6rem 0.4rem;
+  color: #ffffff;
+}
+.listLink {
+  font-weight: bold;
+}
+.listLink:hover {
+  color: #ffffff;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: #000; */
+}
+
+.header__right > .MuiButton-root > .MuiButton-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
